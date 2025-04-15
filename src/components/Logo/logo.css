@@ -1,0 +1,40 @@
+.logo-div {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image {
+    height: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .logo-div {
+        width: 100px;
+    }
+
+    .logo-image {
+        height: 30px;
+    }
+
+    .logo-div h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo-div h2 {
+        display: none;
+    }
+
+    .logo-div {
+        width: 70px;
+    }
+
+    .logo-image {
+        height: 20px;
+    }
+}
