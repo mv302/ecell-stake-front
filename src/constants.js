@@ -203,7 +203,7 @@ function changeCompanyList(list) {
     // console.log(list, companies);
 }
 
-var postUpdateBase = "https://ecell-backend-dp6q.onrender.com";
+var postUpdateBase = "https://ecell-stake-25-back.up.railway.app";
 
 module.exports.companies = companies;
 module.exports.investor = investor;
